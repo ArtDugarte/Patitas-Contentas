@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patitas Contentas</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/login.css">
+    
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+
+    <!-- ESTILOS DE LETRAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="contenedor is">
+
+        <div class="cont_hijo">
+            <div class="mini_header">
+                <a href="index.html" style="text-decoration: none;">
+                    <!--Para volver al index-->
+                    <h1 class="vol">Patitas <span>Contentas</span></h1>
+                </a>
+            </div>
+            <div class="caja_login">
+                <h2 class="title_is">¡Bienvenido!</h2>
+                <form class="login" action='../librerias/control/validar.php' method="post">
+
+                    <input placeholder="Usuario"  class="us_caja" name='txtusuario' required>
+
+                    <input type="password" class="pass_caja" placeholder="Contraseña" name='txtpass' required>
+
+                    <button type="submit" class="submit" name="login"> Iniciar Sesión</button>
+                </form>
+            </div>
+            
+        </div>
+
+        <footer class="mini_footer">
+                <div class="ident">
+                    <h6>Usted aún no se ha identificado</h6>
+                </div>
+                <div class="volver_ind">
+                    <a href="index.html">
+                        <h6>Página principal</h6>
+                    </a>
+                </div>
+            </footer>
+    </div>
+
+    
+    <script src="../js/index.js"></script>
+    <script src="https://use.fontawesome.com/5598d31a13.js"></script>
+</body>
+</html>

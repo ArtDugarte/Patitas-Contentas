@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patitas Contentas - Contacto</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="site-header" id="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html">
+                    <!--Para volver al index-->
+                    <h1 class="no-margin">Patitas <span>Contentas</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="listado.php">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="login.html">Iniciar Sesión</a>
+                </nav>
+            </div>
+            <!--Barra-->
+
+            <div class="texto-header">
+                <h2 class="no-margin">"Un Paraiso para las Mascotas"</h2>
+            </div>
+        </div>
+        <!--Contenedor-->
+    </header>
+
+    <main class="contenedor">
+        <h2 class="centrar-texto">Contacto</h2>
+        <div class="grid centrar-columnas">
+            <div class="columnas-12">
+                <img src="../imagenes/contac.jpeg" alt="Imagen Contacto">
+            </div>
+
+            <div class="columnas-10 formulario-contacto">
+                <form action="mailto: arthuro.dugarte@gmail.com" method="POST" enctype="text/plain">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Introduce tu nombre" name="nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="cedula">Cédula</label>
+                        <input type="text" id="cedula" name="cedula" placeholder="Introduce tu cédula en formato V-00.000.000"
+                            required>
+                    </div>
+                    <div class="campo">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Introduce tu dirección" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email"name="email" placeholder="email@email.com" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Introduce tu número telefónico" required>
+                    </div>
+                    <div class="campo">
+                        <label for="pedido">Pedido</label>
+                        <textarea id="pedido" name="pedido" placeholder="Indique los productos que deseas adquirir"
+                            required></textarea>
+                    </div>
+                    <div class="botones_contactos">
+
+                        <div class="campo limpiar">
+                            <input type="reset" value="Limpiar" class="boton boton-primario">
+                        </div>
+
+                        <div class="campo enviar">
+                            <input type="submit" value="Enviar" name="enviar" class="boton boton-primario">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="campo contac">
+                <a href="https://api.whatsapp.com/send?phone=529984946357&text=Hola.%20Me%20interesa%20tener%20información%20sobre%20sus%20productos."
+                    class="boton boton-secundario">Contáctanos<br>por<br>WhatsApp</a>
+            </div>
+        </div>
+        <!--grid-->
+
+    </main>
+
+    <div class="site-footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="#header">
+                    <p class="no-margin">Patitas <span>Contentas</span></p>
+                </a>
+                <nav class="navegacion">
+                    <a href="listado.php">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="login.html">Iniciar Sesión</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

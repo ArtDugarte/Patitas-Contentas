@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    background-color: #a77350;
+    align-items: center;
+    margin: 0 auto;
+    width: 35rem;
+    height: 70vh;
+    justify-content: center;
+    min-height:400px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #6b4b36;
+}
+.contenedor:hover{
+    transition: all .5s;
+    background-color:rgba(247, 174, 110, 0.842);
+    box-shadow: 0px 0px 20px burlywood; 
+}
+.cont_hijo{
+    padding: 10px 10px;
+}
+
+/*    ----------------- HEADER -----------------     */
+
+.vol{
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Lobster', sans-serif; 
+    color: #453c33;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    max-width: 100%;
+}
+.cont_hijo .mini_header{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin: 5px solid black;
+    border-radius: 20px;
+    background-image: url(../imagenes/mascotas.jpg);
+    background-size: 150%;
+    animation: move-img 10s infinite linear alternate;    
+}
+@keyframes move-img{
+    from{
+      background-position: bottom left;
+    }to{
+      background-position: top right;
+    }
+  }
+
+
+.caja_login{
+    position: absolute;
+    padding-top: 10%;
+    width: 100rem;
+    height: 20rem;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+}
+.title_is{
+    font-size: 2rem;
+    font-family: 'Merienda', cursive;
+    color: beige;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+/*    -------------------------- USUARIO ------------------------   */
+
+.us_caja{
+    width: 20rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: 2px solid #202020;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+/*    -------------------------- PASSWORD ------------------------   */
+
+.pass_caja{
+    width: 20rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: 2px solid #202020;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+/*    -------------------------- SUBMIT ------------------------   */
+
+.submit{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    margin: 30px 0;
+    max-width: 100%;
+}
+.submit:hover{
+    transition: all 0.3s;
+    background-color: #744424;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/*    -------------------------- MINI FOOTER ------------------------   */
+
+.mini_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 5px solid black;
+    border-radius: 20px;
+}
+
+.mini_footer div{
+    position: relative;
+    top: 50%;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.mini_footer div h6{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+}

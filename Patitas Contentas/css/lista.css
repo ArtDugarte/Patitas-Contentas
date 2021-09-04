@@ -1,0 +1,20 @@
+.table{
+    background-color: rgba(247, 174, 110, 0.842);
+    width: 95%;
+    height: 10rem;
+    margin: 0 auto;
+    border: 1px solid rgb(146, 98, 49);
+    margin-top: 10px;
+}
+.table-striped th{
+    background-color: #744424;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.col-md-8 th{
+    font-family:'Times New Roman', Times, serif;    
+}
+tbody th{
+    font-size: 1.5rem;
+    color: #744424;
+}
